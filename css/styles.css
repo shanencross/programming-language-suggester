@@ -1,0 +1,13 @@
+.jumbotron {
+	background-color: rgb(5, 43, 34);
+	color: rgba(255, 255, 255, 0.747)
+}
+
+.jumbotron h2 {
+	text-align: center;
+}
+
+body {
+	background-color: rgb(5, 5, 43);
+	color: rgba(255, 255, 255, 0.747)
+}
