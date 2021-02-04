@@ -1,3 +1,6 @@
 $("document").ready(function() {
-	console.log("Hello world");
+	$("form#questions").submit(function(event) {
+		event.preventDefault();
+		console.log("Submit pressed");
+	});
 });
