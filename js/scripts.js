@@ -53,10 +53,6 @@ $("document").ready(function() {
 			jsPoints += 1;
 		}
 
-		console.log("python points: " + pythonPoints);
-		console.log("cSharp points: " + cSharpPoints);
-		console.log("js points: " + jsPoints);
-
 		// The priority for tie-breakers is Python -> JavaScript -> C#.
 		// By default, the winner is Python.
 		// JavaScript will win only if it exceeds the Python points, 
