@@ -29,7 +29,7 @@ To install and view locally:
 * Use git to clone this repo to a local directory
 * Open _index.html_ to view webpage
 
-To view the site online: http://shanencross.github.io/programming-language-suggester
+To view the site online: http://shanencross.github.io/programming-language-suggester/
 
 ## Known Bugs
 
