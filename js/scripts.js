@@ -1,7 +1,6 @@
 $("document").ready(function() {
 	$("form#questions").submit(function(event) {
 		event.preventDefault();
-		console.log("Submit pressed");
 
 		const challengeResult = $("input:radio[name=question1]:checked").val();
 		const gamesResult = $("input:radio[name=question2]:checked").val();
@@ -68,8 +67,6 @@ $("document").ready(function() {
 			winner = "C#";
 		}
 		
-		console.log(winner);
-
 		$("#language-result").text(winner);
 
 		$("#questions").hide();
