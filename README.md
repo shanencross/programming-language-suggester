@@ -1,39 +1,42 @@
-# _{Application Name}_
+# Programming Language Suggestor
 
-#### _{Brief description of application}_
+#### Learning project for Epicodus coding school. Website that suggests programming language to learn based on user's answers to questions
 
-#### By _**{List of contributors}**_
+#### By Shanen Cross
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Bootstrap
+* JavaScript
+* jQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+Website built for Epicodus coding school assignment. Suggests programming language to learn based on user's answers to questions. The questions and the results are not serious. Purpose of project is to practice JavaScript and jQuery concepts.
+
+The following programming languages are possible results:
+* C#
+* Python
+* JavaScript
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+To install and view locally:
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* Install git
+* Use git to clone this repo to a local directory
+* Open _index.html_ to view webpage
+
+To view the site online: http://shanencross.github.io/programming-language-suggester
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+None.
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Contact Information
-
-_{Add your contact information here.}_
+Copyright (c) 2021 Shanen Cross
