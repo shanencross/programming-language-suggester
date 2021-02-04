@@ -74,6 +74,8 @@ $("document").ready(function() {
 		
 		console.log(winner);
 
+		$("#language-result").text(winner);
+
 		$("#questions").hide();
 		$("#result").show();
 	});
