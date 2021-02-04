@@ -14,7 +14,7 @@
 
 ## Description
 
-Website built for Epicodus coding school assignment. Suggests programming language to learn based on user's answers to questions. The questions and the results are not serious. Purpose of project is to practice JavaScript and jQuery concepts.
+Website built for Epicodus coding school assignment. It suggests a programming language to learn as the user's first language, based on their answers to questions. The questions and the results are not serious. The purpose of the project is to practice JavaScript and jQuery concepts.
 
 The following programming languages are possible results:
 * C#
@@ -30,6 +30,10 @@ To install and view locally:
 * Open _index.html_ to view webpage
 
 To view the site online: http://shanencross.github.io/programming-language-suggester/
+
+Once on the page:
+* Select answers to each question using the radio buttons.
+* Press submit to see your results, and discover which programming language is right for you!
 
 ## Known Bugs
 
