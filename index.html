@@ -8,11 +8,11 @@
 	<title>Programming Language Suggester</title>
 </head>
 <body>
-	<div class=jumbotron>
+	<div class="jumbotron">
 		<h2>Programming Langauge Suggester</h2>
 	</div>
-	<div class=container>
-		<div id=intro>
+	<div class="container">
+		<div id="intro">
 			<p>It's time to find out what programming language is best for you!</p>
 
 			<p>There are three possible results:</p>
@@ -27,15 +27,64 @@
 			<p>Answer the following questions to find out!</p>
 		</div>
 
-		<div id=questions>
+		<form id="questions">
+			
+			<div class="question">
+				<p>Is this a question?</p>
+				<div class="radio">
+					<label>
+						<input id="yes" name="question1" value="yes" type="radio">
+						Yes
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input id="no" name="question1" value="no" type="radio">
+						No
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input id="maybe so" name="question1" value="maybe so" type="radio">
+						Maybe so
+					</label>
+				</div>
 
-		</div>
+				<br>
 
-		<div id=result>
+				<div class="question">
+					<p>Is this another question?</p>
+					<div class="radio">
+						<label>
+							<input id="yes" name="question2" value="yes" type="radio">
+							Yes
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input id="no" name="question2" value="no" type="radio">
+							No
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input id="maybe so" name="question2" value="maybe so" type="radio">
+							Maybe so
+						</label>
+					</div>
+
+				
+			</div>
+			
+		<button type="submit" class="btn-primary">Submit!</button>
+		</form>
+
+
+		<div id="result">
 			<p>The programming language for <em>you</em> is...</p>
 
 			<h3>
-				<span id=result></span>!!!
+				<span id="result"></span>!!!
 			</h3>
 		</div>
 
